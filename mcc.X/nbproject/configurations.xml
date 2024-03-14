@@ -157,9 +157,6 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="system" displayName="system" projectFiles="true">
-            <logicalFolder name="cache" displayName="cache" projectFiles="true">
-              <itemPath>../src/config/default/system/cache/sys_cache.h</itemPath>
-            </logicalFolder>
             <logicalFolder name="command" displayName="command" projectFiles="true">
               <itemPath>../src/config/default/system/command/sys_command.h</itemPath>
             </logicalFolder>
@@ -261,9 +258,6 @@
             <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="system" displayName="system" projectFiles="true">
-            <logicalFolder name="cache" displayName="cache" projectFiles="true">
-              <itemPath>../src/config/default/system/cache/sys_cache.c</itemPath>
-            </logicalFolder>
             <logicalFolder name="command" displayName="command" projectFiles="true">
               <itemPath>../src/config/default/system/command/src/sys_command.c</itemPath>
             </logicalFolder>
@@ -307,7 +301,7 @@
         <targetDevice>PIC32MK0512GPK064</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>snap</platformTool>
+        <platformTool>pk4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.35</languageToolchainVersion>
         <platform>3</platform>
